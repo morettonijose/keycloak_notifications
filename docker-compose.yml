@@ -44,7 +44,7 @@ services:
       - mvp_network
 
   api-users:
-    build: ./api-users
+    build: ./keycloak_users
     depends_on:
       - db-users
       - keycloak
@@ -60,7 +60,7 @@ services:
              uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload"
 
   api-notifications:
-    build: ./api-notifications
+    build: ./keycloak_notifications
     depends_on:
       - db-notifications
       - keycloak
