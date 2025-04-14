@@ -77,10 +77,26 @@ API Notifications Swagger: http://localhost:8001/docs
 API Users Swagger: http://localhost:8000/docs
 
 
- ####  Obs ) Docker
+
+ ####  6 ) Docker
 
 O projeto já contém:
 
 Dockerfile para cada API e docker-compose.yml para orquestração dos serviços . Caso você altere o nome das pastas dos repositórios baixados, lembre de alterar o destino do build dos componentes no arquivo docker-compose.yml
 
 Suba o ambiente rodando : docker-compose up --build
+
+
+ ####  7 ) Configurando o KeyCloak : 
+
+ 
+7.1 ) Faça o login no admin do keycloak : http://localhost:8080/admin
+
+7.2 ) Crie o ‘realm’ (tenant)  (grupos de usuários) : general ; 
+
+7.3 ) Crie um cliente para a aplicação : escolha o nome client1 ; 
+
+7.4 ) Crie o usuários que terão acesso : user1 ; 
+
+
+Obs : caso você escolha um  realm ou nome de cliente  diferente , lembre de alterar o arquivo .local.env ; 
