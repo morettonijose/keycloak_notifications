@@ -7,9 +7,9 @@ API REST desenvolvida em FastAPI para gerenciamento de notificações, integrada
 
 ##  Link da apresentação do  MVP no Youtube
 
-Link do Youtube : https://www.youtube.com/watch?v=9ml5-jaHGjw
+Link do vídeo no Youtube : https://www.youtube.com/watch?v=9ml5-jaHGjw
 
-Link do víeo no Google Drive : https://drive.google.com/drive/folders/1_PzSw0IWEKeUzZF_8yismVr-QliEIIXm
+Link do vídeo no Google Drive : https://drive.google.com/drive/folders/1_PzSw0IWEKeUzZF_8yismVr-QliEIIXm
 
 
 ##  Funcionalidades
