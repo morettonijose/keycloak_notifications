@@ -24,24 +24,30 @@ DELETE /notification/{notification_id}: Deletar uma notificação
 
 ####  1 ) Clone o projeto
 
+```
 git clone https://github.com/morettonijose/keycloak_notifications.git
 cd mvp_2025_pos-notifications
+```
 
 ####  2 ) Configure as variáveis de ambiente
 
 Crie um arquivo .env ou .local.env e defina:
 
+```
 KEYCLOAK_URL=http://localhost:8080/
 KEYCLOAK_REALM=mvp-2025
 KEYCLOAK_CLIENT_ID=client_id
 KEYCLOAK_CLIENT_SECRET=client_secret
 KEYCLOAK_TOKEN_URL_PUBLIC=http://localhost:8080/realms/mvp-2025/protocol/openid-connect/token
 DATABASE_URL=postgresql://user:password@db-notifications:5432/notifications
+```
 
 
  ####  3 ) Suba o ambiente com Docker Compose
 
+```
  docker-compose up --build
+ ```
 
  Isso irá iniciar:
 
