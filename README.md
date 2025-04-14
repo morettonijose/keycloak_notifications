@@ -145,6 +145,9 @@ Suba o ambiente rodando : docker-compose up --build
    Include Client : cliente1 ; 
 
 
+ ### 9 ) Uma vez que você configurou corretamente o Keycloak , então você pode acessar a API, realizar a autenticação no botão 'Authorize' do swagger, e então usar os endpoints da api. Lembre que para o endpoint POST e PUT, você deve  inserie um user_id existente  no serviço de usuário. 
+
+
 
  
 
