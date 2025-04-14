@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+python-keycloak>=2.11.0
+python-dotenv
