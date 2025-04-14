@@ -122,7 +122,7 @@ Suba o ambiente rodando : docker-compose up --build
 
 
 
- #### 7.4 ) Crie o usuários que terão acesso : user1 ; 
+ #### 7.4 )  Crie o usuário que terá acesso  a api :  
           - Adicione um novo usuário , marque a opção email verificado ;
           - Na aba Credential crie uma senha para o usuário e desmarque "Tempporary" para que fique na posição OFF  ; 
 
