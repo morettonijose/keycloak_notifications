@@ -56,11 +56,11 @@ Keycloak Server
 
  ####  4 ) Acesse
 
+Keycloak Admin Console: http://localhost:8080/
+
 API Notifications Swagger: http://localhost:8001/docs
 
 API Users Swagger: http://localhost:8000/docs
-
-Keycloak Admin Console: http://localhost:8080/
 
 
  ####  Obs ) Docker
